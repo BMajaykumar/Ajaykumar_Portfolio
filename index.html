@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Responsive Portfolio Website Design</title>
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+</head>
+
+<body>
+    <div class='cursor' id="cursor"></div>
+    <div class='cursor2' id="cursor2"></div>
+    <div class='cursor3' id="cursor3"></div>
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>B.M.AJAYKUMAR</h1>
+            <p>
+                Aspiring web developer with a strong foundation in front-end technologies and a growing interest in full-stack development.
+            </p>
+            <p> Seeking a full-time role at Accenture-India where I can apply my skills in programming, design, and problem-solving to contribute to impactful projects and continue developing my back-end, server, and database expertise.</p>
+
+            <div class="social-media">
+                <a href="mailto:bmajaykumar3@gmail.com"><i class='bx bxl-gmail'></i></a>
+                <a href="https://github.com/BMajaykumar"><i class='bx bxl-github'></i></a>
+                <a href="https://www.instagram.com/aj_kumar_since_2004/"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.linkedin.com/in/bm-ajaykumar/"><i class='bx bxl-linkedin'></i></a>
+            </div>
+
+            <a href="https://drive.usercontent.google.com/u/0/uc?id=1yi96nASu32MlUSEShHkT6SNWihHMMuQA&export=download" download="AjayKumar_Resume.pdf" class="btn">Download Resume</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Developer</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bx-palette'></i>
+                    <h3>UI/UX</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-code'></i>
+                    <h3>Full-Stack Dev</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class='bx bx-bar-chart-alt'></i>
+                    <h3>Design Thinking</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-img">
+            <img src="images/home.png" alt="">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/ajay.png" alt="">
+        </div>  
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>
+                Hello and welcome to my website! I'm B.M. Ajay Kumar, a dedicated web developer with a passion for exploring new technologies and tackling coding challenges.
+            </h3>
+            <p>
+                This site serves as my personal portfolio where I share insights and updates on web development topics that captivate and motivate me.
+            </p>
+            <p>
+                Thank you for visiting and taking the time to learn more about me. I hope you find my blog posts both engaging and informative. For regular updates on the latest web development trends and tips, consider subscribing to my newsletter. If you have any feedback or suggestions, I’d love to hear from you—your input is always appreciated!
+            </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>HTML: Proficient in creating well-structured web pages using semantic HTML.<br>
+                    CSS: Strong understanding of CSS for designing responsive and visually appealing web pages.<br> JavaScript: Proficient in writing clean and efficient JavaScript code.
+                </p>
+                
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-figma'></i>
+                <h3>Figma</h3>
+                <p>Experienced in using Figma for UI/UX design. <br> Skilled in creating wireframes, prototypes, and detailed design mockups. <br>Familiar with collaborating on design projects within teams and incorporating feedback to improve user experience.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>Design Thinking</h3>
+                <p>Proficient in applying design thinking principles to solve complex problems. Experienced in empathizing with users, defining problems, ideating solutions, prototyping, and testing. Capable of balancing user needs with technical feasibility and business goals.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-github'></i>
+                <h3>Git and GitHub</h3>
+                <p>Proficient in version control using Git. Experienced in managing code repositories on GitHub, collaborating with team members through pull requests, and maintaining clear commit histories. Comfortable with branching, merging, and resolving conflicts.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/vaat.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>VAAT</h4>
+                    <p>An e-commerce website for renting products online, such as cameras, laptops, and other home appliances.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/job-por.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>JOB PORTAL</h4>
+                    <p>A job portal web page that functions like a typical job portal, using local storage.
+                       This is a demo project developed during an internship.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/figma.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>TELE-HEALTH</h4>
+                    <p> A telehealth app where the UI/UX is fully developed, with ongoing work on the back-end</p>
+                    <a href="https://www.figma.com/proto/TUN1dUcnET3RS20hVXZn5J/Fitnest---Fitness-App-UI-Kit-by-Pixel-True?page-id=814%3A2541&node-id=814-2542&viewport=651%2C653%2C0.2&t=lZUWzrHpdGc8scqs-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=814%3A2542&share=1"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/amazon.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Amazon clone</h4>
+                    <p>A fully functional Amazon clone webpage designed to replicate the look and feel of the original Amazon website</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/meal-find.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Meal Finder</h4>
+                    <p>A dynamic web application that allows users to search for meals and retrieve detailed recipes using an external API</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/food delivery.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Food Delivery App</h4>
+                    <p>A feature-rich web application that displays available meals and allows users to order food directly from the page. The project is built using an external API</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonial design -->
+    <div class="testimonial-container">
+        <h2 class="heading">Valuable <span>Testimonial</span></h2>
+
+        <div class="testimonial-wrapper">
+            <div class="testimonial-box mySwiper">
+                <div class="testimonial-content swiper-wrapper">
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="images/testimonial1.jpg" alt="">
+                        <h3>Jackson Levi</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem dignissimos aliquid
+                            iure delectus corrupti impedit, beatae aperiam ad iusto nostrum possimus cum pariatur harum
+                            assumenda suscipit a, qui, tempora maxime nulla facere quo ipsum tempore. Atque libero
+                            provident ad aut officia pariatur voluptate quaerat delectus nesciunt, sequi eligendi
+                            aperiam fugit unde nihil, iste similique illum. Dignissimos enim officia consequuntur
+                            dolores.</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="images/testimonial2.jpg" alt="">
+                        <h3>Flora Ocean</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem dignissimos aliquid
+                            iure delectus corrupti impedit, beatae aperiam ad iusto nostrum possimus cum pariatur harum
+                            assumenda suscipit a, qui, tempora maxime nulla facere quo ipsum tempore. Atque libero
+                            provident ad aut officia pariatur voluptate quaerat delectus nesciunt, sequi eligendi
+                            aperiam fugit unde nihil, iste similique illum. Dignissimos enim officia consequuntur
+                            dolores.</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="images/testimonial3.jpg" alt="">
+                        <h3>Julian Grayson</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem dignissimos aliquid
+                            iure delectus corrupti impedit, beatae aperiam ad iusto nostrum possimus cum pariatur harum
+                            assumenda suscipit a, qui, tempora maxime nulla facere quo ipsum tempore. Atque libero
+                            provident ad aut officia pariatur voluptate quaerat delectus nesciunt, sequi eligendi
+                            aperiam fugit unde nihil, iste similique illum. Dignissimos enim officia consequuntur
+                            dolores.</p>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+    
+        <form id="contact-form">
+            <div class="input-box">
+                <input type="text" name="from_name" placeholder="Full Name" required>
+                <input type="email" name="user_email" placeholder="Email Address" required>
+            </div>
+            <div class="input-box">
+                <input type="text" name="user_mobile" placeholder="Mobile Number" required>
+                <input type="text" name="subject" placeholder="Email Subject" required>
+            </div>
+            <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+    
+    
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
